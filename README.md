@@ -65,24 +65,8 @@ http://127.0.0.1:8000/docs
 streamlit run app/streamlit_app.py
 **Open the UI:**
 http://localhost:8501
-### **Project Structure**
-telco-churn-intelligence/
-│
-├── api/                  # FastAPI backend
-├── app/                  # Streamlit UI
-├── models/               # Saved ML model artifacts
-├── data/                 # Dataset files
-├── docs/
-│   └── images/           # README screenshots
-├── train.py              # Model training script
-├── score.py              # Scoring logic
-├── requirements.txt
-└── README.md
 ### **Deployment Note**
 The screenshots included in this README were captured from the locally running application.
-![alt text](StreamLit_Prediction.jpeg)
-![alt text](API_Swagger.jpeg)
-![alt text](<API Response.jpeg>)
 To make the system publicly accessible at all times, the API and Streamlit application can be deployed to a cloud platform such as Streamlit Community Cloud, Render, or AWS.
 **Key Highlights**
 * End-to-end ML pipeline
