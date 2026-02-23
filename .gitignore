@@ -4,4 +4,5 @@ __pycache__/
 
 data/
 models/
-reports/
+reports/*
+!reports/metrics.json
