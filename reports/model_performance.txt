@@ -1,0 +1,20 @@
+Model Performance Summary
+------------------------
+
+ROC-AUC: 0.8343
+Accuracy: 0.7264
+
+Churn Class (1):
+Precision: 0.4908
+Recall: 0.7834
+F1-Score: 0.6035
+
+Confusion Matrix:
+TN: 729
+FP: 304
+FN: 81
+TP: 293
+
+Train Size: 5625
+Test Size: 1407
+Threshold: 0.5

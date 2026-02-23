@@ -6,3 +6,4 @@ data/
 models/
 reports/*
 !reports/metrics.json
+!reports/model_performance.txt
